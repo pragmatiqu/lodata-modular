@@ -1,0 +1,2 @@
+expression: t1 OR t2 OR t3
+result: ( ( "t1" OR "t2" ) OR "t3" )

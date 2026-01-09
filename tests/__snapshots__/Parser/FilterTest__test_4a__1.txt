@@ -1,0 +1,2 @@
+expression: minute(origin) eq 33
+result: ( minute( origin ) eq 33 )

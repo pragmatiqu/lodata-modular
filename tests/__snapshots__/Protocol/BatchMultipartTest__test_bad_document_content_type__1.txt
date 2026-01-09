@@ -1,0 +1,10 @@
+
+--00000000-0000-0000-0000-000000000002
+content-type: application/http
+content-id: 1
+
+HTTP/1.1 406 Not Acceptable
+content-type: application/json
+
+{"error":{"code":"not_json","message":"Content provided to this endpoint must be supplied with a JSON content type","target":null,"details":[],"innererror":{}}}
+--00000000-0000-0000-0000-000000000002--

@@ -1,0 +1,2 @@
+expression: id in (1.59, 2.14)
+result: id in ( 1.59, 2.14 )

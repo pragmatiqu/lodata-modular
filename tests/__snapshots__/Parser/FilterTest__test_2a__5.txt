@@ -1,0 +1,2 @@
+expression: matchesPattern(origin,'^A.*e$')
+result: This entity set does not support the function "matchesPattern"

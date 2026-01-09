@@ -1,0 +1,2 @@
+expression: concat(origin, 'world')
+result: concat( origin, 'world' )

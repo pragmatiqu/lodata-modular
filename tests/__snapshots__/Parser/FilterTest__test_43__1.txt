@@ -1,0 +1,2 @@
+expression: origin eq PT1M
+result: ( origin eq PT1M0S )

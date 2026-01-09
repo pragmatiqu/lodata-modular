@@ -1,0 +1,2 @@
+expression: trim(origin) eq 'abc123'
+result: ( trim( origin ) eq 'abc123' )

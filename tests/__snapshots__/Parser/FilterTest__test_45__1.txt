@@ -1,0 +1,2 @@
+expression: origin eq P10DT2H30M
+result: ( origin eq P10DT2H30M0S )

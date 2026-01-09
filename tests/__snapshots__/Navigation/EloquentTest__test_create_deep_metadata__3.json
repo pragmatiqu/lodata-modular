@@ -1,0 +1,33 @@
+{
+    "@context": "http://localhost/odata/$metadata#Passengers",
+    "value": [
+        {
+            "id": 6,
+            "flight_id": 4,
+            "name": "Alice",
+            "dob": null,
+            "age": null,
+            "chips": null,
+            "dq": null,
+            "in_role": null,
+            "open_time": null,
+            "colour": null,
+            "sock_colours": null,
+            "emails": []
+        },
+        {
+            "id": 7,
+            "flight_id": 4,
+            "name": "Bob",
+            "dob": null,
+            "age": null,
+            "chips": null,
+            "dq": null,
+            "in_role": null,
+            "open_time": null,
+            "colour": null,
+            "sock_colours": null,
+            "emails": []
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+expression: indexof(origin,'abc123') eq 1
+result: ( indexof( origin, 'abc123' ) eq 1 )

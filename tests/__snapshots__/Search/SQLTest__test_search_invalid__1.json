@@ -1,0 +1,9 @@
+{
+    "error": {
+        "code": "expression_parser_error",
+        "message": "Encountered an invalid symbol at: Bet AND ta >O<R",
+        "target": null,
+        "details": [],
+        "innererror": {}
+    }
+}

@@ -1,0 +1,2 @@
+expression: not (origin eq 'a')
+result: ( not ( origin eq 'a' ) )

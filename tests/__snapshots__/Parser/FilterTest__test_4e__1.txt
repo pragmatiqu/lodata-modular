@@ -1,0 +1,2 @@
+expression: time(origin) eq 10:00:00
+result: ( time( origin ) eq 10:00:00 )

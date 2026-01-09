@@ -1,0 +1,2 @@
+expression: origin eq false
+result: ( origin eq false )

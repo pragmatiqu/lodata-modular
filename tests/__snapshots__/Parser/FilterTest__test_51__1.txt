@@ -1,0 +1,2 @@
+expression: indexof(origin,'a') eq 1
+result: ( indexof( origin, 'a' ) eq 1 )

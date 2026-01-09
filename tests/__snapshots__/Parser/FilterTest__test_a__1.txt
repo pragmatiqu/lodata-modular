@@ -1,0 +1,2 @@
+expression: origin in ('a')
+result: origin in ( 'a' )

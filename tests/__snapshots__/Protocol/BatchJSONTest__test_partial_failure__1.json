@@ -1,0 +1,41 @@
+{
+    "responses": [
+        {
+            "id": 0,
+            "status": 201,
+            "headers": {
+                "content-type": "application/json;metadata=minimal",
+                "location": "http://localhost/odata/airports(5)",
+                "etag": "W/\"0c127b8123416153ea8d4c619bb7e3be7b8db9410b4f332cb2e9485b1aefa6b2\""
+            },
+            "body": {
+                "@context": "http://localhost/odata/$metadata#airports/$entity",
+                "id": 5,
+                "name": "a",
+                "code": "xyy",
+                "construction_date": null,
+                "open_time": null,
+                "sam_datetime": null,
+                "review_score": null,
+                "is_big": null,
+                "country_id": null
+            }
+        },
+        {
+            "id": 1,
+            "status": 400,
+            "headers": {
+                "content-type": "application/json"
+            },
+            "body": {
+                "error": {
+                    "code": "property_not_nullable",
+                    "message": "The property 'name' cannot be set to null",
+                    "target": null,
+                    "details": [],
+                    "innererror": {}
+                }
+            }
+        }
+    ]
+}

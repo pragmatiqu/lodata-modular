@@ -1,0 +1,3 @@
+expression: time(origin) eq 10:00:00
+result: ( STRFTIME( '%H:%M:%S', "flights"."origin" ) = ? )
+parameters: 10:00:00

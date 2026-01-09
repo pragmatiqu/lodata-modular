@@ -1,0 +1,2 @@
+expression: origin EQ 'lax'
+result: ( origin eq 'lax' )

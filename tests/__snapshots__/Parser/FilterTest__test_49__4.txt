@@ -1,0 +1,3 @@
+expression: hour(origin) eq 3
+result: ( CAST( STRFTIME( '%H', "flights"."origin" ) AS NUMERIC ) = ? )
+parameters: 3

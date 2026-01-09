@@ -1,0 +1,3 @@
+expression: year(origin) eq 1999
+result: ( DATE_PART( 'YEAR',  "flights"."origin" ::timestamp)::integer = ? )
+parameters: 1999

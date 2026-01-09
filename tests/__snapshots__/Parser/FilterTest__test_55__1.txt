@@ -1,0 +1,2 @@
+expression: startswith(origin,'Veniam et') eq true
+result: ( startswith( origin, 'Veniam et' ) eq true )

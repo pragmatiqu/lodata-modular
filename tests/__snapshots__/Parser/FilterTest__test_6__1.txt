@@ -1,0 +1,2 @@
+expression: id ge 4
+result: ( id ge 4 )

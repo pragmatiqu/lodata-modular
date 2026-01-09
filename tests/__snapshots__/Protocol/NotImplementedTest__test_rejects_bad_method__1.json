@@ -1,0 +1,9 @@
+{
+    "error": {
+        "code": "apply_not_implemented",
+        "message": "The $apply system query option is not implemented",
+        "target": null,
+        "details": [],
+        "innererror": {}
+    }
+}

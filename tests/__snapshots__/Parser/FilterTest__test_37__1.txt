@@ -1,0 +1,2 @@
+expression: origin gt 4
+result: ( origin gt 4 )

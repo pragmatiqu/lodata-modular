@@ -1,0 +1,2 @@
+expression: origin le 4
+result: ( origin le 4 )

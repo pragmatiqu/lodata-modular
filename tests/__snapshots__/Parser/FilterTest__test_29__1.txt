@@ -1,0 +1,2 @@
+expression: substring(origin,1,4) eq 'abc123'
+result: ( substring( origin, 1, 4 ) eq 'abc123' )

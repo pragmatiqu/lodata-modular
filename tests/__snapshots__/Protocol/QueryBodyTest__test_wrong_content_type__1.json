@@ -1,0 +1,9 @@
+{
+    "error": {
+        "code": "unsupported_content_type",
+        "message": "Requests to this endpoint must use the text/plain content type",
+        "target": null,
+        "details": [],
+        "innererror": {}
+    }
+}

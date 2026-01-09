@@ -1,0 +1,2 @@
+expression: origin lt 4
+result: ( origin lt 4 )

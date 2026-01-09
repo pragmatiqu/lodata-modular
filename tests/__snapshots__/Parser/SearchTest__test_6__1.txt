@@ -1,0 +1,2 @@
+expression: "a ''t1" OR t1
+result: ( "a ''t1" OR "t1" )

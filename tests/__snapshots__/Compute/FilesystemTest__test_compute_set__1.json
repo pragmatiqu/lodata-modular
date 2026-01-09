@@ -1,0 +1,19 @@
+{
+    "@context": "http://localhost/odata/$metadata#disk",
+    "value": [
+        {
+            "type": "text/plain",
+            "path": "a1.txt",
+            "timestamp": "2020-01-01T01:01:01+00:00",
+            "size": 5,
+            "myName": "a1.txt is my name"
+        },
+        {
+            "type": "text/plain",
+            "path": "d1/a1.txt",
+            "timestamp": "2020-01-01T01:01:01+00:00",
+            "size": 6,
+            "myName": "d1/a1.txt is my name"
+        }
+    ]
+}

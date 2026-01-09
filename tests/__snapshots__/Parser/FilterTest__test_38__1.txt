@@ -1,0 +1,2 @@
+expression: origin ge 4
+result: ( origin ge 4 )

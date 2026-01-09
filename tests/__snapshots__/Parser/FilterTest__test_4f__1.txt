@@ -1,0 +1,2 @@
+expression: year(origin) eq 1999
+result: ( year( origin ) eq 1999 )
