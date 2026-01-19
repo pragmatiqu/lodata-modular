@@ -15,6 +15,8 @@ class Endpoint implements ServiceEndpointInterface
 
     public function __construct(string $prefix, string $namespace, string $version)
     {
+        $this->namespace = $namespace;
+
         $this->serviceUri = str_replace('.', '/', $namespace) . '@' . $version;
 
         $this->route = $prefix . '/' . $this->serviceUri;

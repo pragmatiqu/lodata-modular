@@ -44,7 +44,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->publishes([__DIR__.'/../config.php' => config_path('lodata.php')], 'config');
         }
-        $this->bootServices(new Endpoint(''));
+        $this->bootServices(new Endpoint('', 'com.pragmatiqu.lodata', '1.0.0'));
     }
 
     private function bootServices(Endpoint $service): void
