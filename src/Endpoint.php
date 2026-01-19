@@ -12,11 +12,11 @@ class Endpoint implements ServiceEndpointInterface
 
     protected $endpoint;
 
-    public function __construct(string $serviceUri)
+    public function __construct(string $prefix, string $namespace, string $version)
     {
-        $this->serviceUri = trim($serviceUri, '/');
+        $this->serviceUri = str_replace('.', '/', $namespace) . '@' . $version;
 
-        $this->route = $this->serviceUri;
+        $this->route = $prefix . '/' . $this->serviceUri;
 
         $this->endpoint = url($this->route) . '/';
     }
