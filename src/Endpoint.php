@@ -6,6 +6,7 @@ use Flat3\Lodata\Interfaces\ServiceEndpointInterface;
 
 class Endpoint implements ServiceEndpointInterface
 {
+    protected $namespace;
     protected $serviceUri;
 
     protected $route;
@@ -38,7 +39,7 @@ class Endpoint implements ServiceEndpointInterface
 
     public function namespace(): string
     {
-        return config('lodata.namespace');
+        return $this->namespace;
     }
 
     public function cachedMetadataXMLPath(): ?string
